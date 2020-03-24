@@ -12,3 +12,24 @@ Tags:
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+
+/*-------------
+GENERAL
+-------------*/
+:root{
+  --color1: #DCEED1;
+  --color2: #AAC0AA;
+  --color3: #736372;
+  --color4: #A18276;
+  --color5: #7A918D;
+  --color-white: #fff;
+  --color-black: #000;
+
+}
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+header{
+  color: var(--color5);
+}

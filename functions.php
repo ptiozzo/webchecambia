@@ -24,6 +24,8 @@ if ( ! function_exists( 'wcc_styles_scripts' ) ) {
 		wp_enqueue_style( 'wcc-bootstrap-css', get_template_directory_uri().'/assets/css/bootstrap.min.css');
 		wp_enqueue_style( 'wcc-swup-css', get_template_directory_uri().'/assets/swup/swup.css');
 		wp_enqueue_style( 'wcc', get_template_directory_uri().'/style.css');
+		wp_enqueue_style( 'wcc-monserrat', '//fonts.googleapis.com/css?family=Montserrat&display=swapv');
+
 
 		wp_enqueue_script('jquery');
 
